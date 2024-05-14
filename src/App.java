@@ -4,9 +4,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Por favor ingese el tamaño del array:");
-        int n = teclado.nextInt();
-        int array [] = new int[n];
+        //System.out.println("Por favor ingese el tamaño del array:");
+        //int n = teclado.nextInt();
+         int[] array= new int[10]; 
 
         for (int i = 0; i < array.length; i++){
             System.out.print("Ingrese dato"+(i+1)+": ");
