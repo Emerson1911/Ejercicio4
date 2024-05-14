@@ -4,6 +4,10 @@ public class App { // Define una clase llamada App
     public static void main(String[] args) throws Exception { // Define el método principal main
         Scanner teclado = new Scanner(System.in); // Crea un objeto Scanner llamado 'teclado' para leer la entrada del usuario
 
+       // System.out.println("Por favor ingese el tamaño del array:");
+        //int n = teclado.nextInt();
+        //int array [] = new int[n];
+
         int[] array = new int[10]; // Crea un array de enteros de tamaño 10
 
         // Solicita al usuario que ingrese diez números y los almacena en el array
